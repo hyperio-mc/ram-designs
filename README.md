@@ -1,120 +1,62 @@
-# RAM Design System — Catalog
+# RAM Design Archive
 
-> 325 designs · 8 heartbeat generators · built by RAM
+> 9 heartbeat designs fully archived · 325 designs catalogued · built by RAM
 
-RAM is an autonomous design AI running scheduled heartbeat routines. Each design explores SOTA UI patterns across finance, productivity, wellness, developer tools, and editorial aesthetics.
+RAM is an autonomous design AI running scheduled heartbeat design routines. This repository is the permanent archive of every design — source code, compiled design data, and design notes.
 
-## Quick Links
-- **Design Recommender**: https://ram.zenbin.org/discover
-- **Live Designs**: https://ram.zenbin.org
-- **Gallery Queue**: powered by `twilson63/agents-kb`
+## Heartbeat Series — Full Archive
 
-## Heartbeat Series (Core Designs)
+Each beat contains three files:
 
-| Beat | Name | Theme | Link |
-|------|------|-------|------|
-| #1 | **BEACON** | dark | [→](https://ram.zenbin.org/beacon) |
-| #2 | **ISSUE** | light | [→](https://ram.zenbin.org/issue) |
-| #3 | **DISPATCH** | dark | [→](https://ram.zenbin.org/dispatch) |
-| #4 | **KNOT** | dark | [→](https://ram.zenbin.org/knot) |
-| #5 | **SERUM** | light | [→](https://ram.zenbin.org/serum) |
-| #6 | **PATCH** | dark | [→](https://ram.zenbin.org/dispatch) |
-| #7 | **MINT** | light | [→](https://ram.zenbin.org/mint) |
-| #8 | **NOVA** | dark | [→](https://ram.zenbin.org/nova) |
+| File | What it is |
+|------|------------|
+| `generator.js` | Node.js source that builds the design from scratch |
+| `design.pen` | Compiled Pencil.dev v2.8 design data (screens + elements) |
+| `notes.md` | Research sources, palette, key decisions |
 
-## Design Catalog (325 unique designs)
+| # | Name | Theme | Tagline | Design | Mock |
+|---|------|-------|---------|--------|------|
+| 1 | [BEACON](heartbeats/beacon/) | Dark | Founder Intelligence Dashboard | [→](https://ram.zenbin.org/beacon) | [mock](https://ram.zenbin.org/beacon-mock) |
+| 2 | [ISSUE](heartbeats/issue/) | Light | Editorial Magazine Reader | [→](https://ram.zenbin.org/issue) | [mock](https://ram.zenbin.org/issue-mock) |
+| 3 | [DISPATCH](heartbeats/dispatch/) | Dark | AI Agent Orchestration | [→](https://ram.zenbin.org/dispatch) | [mock](https://ram.zenbin.org/dispatch-mock) |
+| 4 | [KNOT](heartbeats/knot/) | Dark | Personal Knowledge Graph | [→](https://ram.zenbin.org/knot) | [mock](https://ram.zenbin.org/knot-mock) |
+| 5 | [SERUM](heartbeats/serum/) | Light | AI Skin Intelligence | [→](https://ram.zenbin.org/serum) | [mock](https://ram.zenbin.org/serum-mock) |
+| 6 | [PATCH](heartbeats/patch/) | Dark | Developer Observability | [→](https://ram.zenbin.org/patch) | [mock](https://ram.zenbin.org/patch-mock) |
+| 7 | [MINT](heartbeats/mint/) | Light | Freelance Finance | [→](https://ram.zenbin.org/mint) | [mock](https://ram.zenbin.org/mint-mock) |
+| 8 | [NOVA](heartbeats/nova/) | Dark | AI Writing Intelligence | [→](https://ram.zenbin.org/nova) | [mock](https://ram.zenbin.org/nova-mock) |
+| 9 | [LODGE](heartbeats/lodge/) | Light | Boutique Nature Retreats | [→](https://ram.zenbin.org/lodge) | [mock](https://ram.zenbin.org/lodge-mock) |
 
-| Name | Archetype | Design | Mock |
-|------|-----------|--------|------|
-| VELOX | studio | [→](https://ram.zenbin.org/velox-heartbeat) | — |
-| PRESS | editorial-briefing | [→](https://ram.zenbin.org/press) | [mock](https://ram.zenbin.org/press-mock) |
-| Nova | ai-writing-productivity | [→](https://ram.zenbin.org/nova) | [mock](https://ram.zenbin.org/nova-mock) |
-| Gust | home-wellness | [→](https://ram.zenbin.org/gust) | [mock](https://ram.zenbin.org/gust-mock) |
-| MINT | editorial-finance | [→](https://ram.zenbin.org/mint) | [mock](https://ram.zenbin.org/mint-mock) |
-| KEEL | freelance-finance-os | [→](https://ram.zenbin.org/keel) | [mock](https://ram.zenbin.org/keel-mock) |
-| GLYPH | daily-rhythm-tracker | [→](https://ram.zenbin.org/glyph) | [mock](https://ram.zenbin.org/glyph-mock) |
-| SPIRE | ai-project-intelligence | [→](https://ram.zenbin.org/spire) | [mock](https://ram.zenbin.org/spire-mock) |
-| SHORE | ai-productivity | [→](https://ram.zenbin.org/shore) | [mock](https://ram.zenbin.org/shore-mock) |
-| DUNE | fintech-dark | [→](https://ram.zenbin.org/dune) | [mock](https://ram.zenbin.org/dune-mock) |
-| CAPE | personal-productivity | [→](https://ram.zenbin.org/cape) | [mock](https://ram.zenbin.org/cape-mock) |
-| LYNX | code-intelligence | [→](https://ram.zenbin.org/lynx) | [mock](https://ram.zenbin.org/lynx-mock) |
-| FOLIO | creative-fintech | [→](https://ram.zenbin.org/folio) | [mock](https://ram.zenbin.org/folio-mock) |
-| QUILL | journaling-app | [→](https://ram.zenbin.org/quill) | [mock](https://ram.zenbin.org/quill-mock) |
-| REEL | film-production | [→](https://ram.zenbin.org/reel) | [mock](https://ram.zenbin.org/reel-mock) |
-| LUME | focus-productivity | [→](https://ram.zenbin.org/lume) | [mock](https://ram.zenbin.org/lume-mock) |
-| INK | editorial-dark | [→](https://ram.zenbin.org/ink) | [mock](https://ram.zenbin.org/ink-mock) |
-| Wire | ai-workflow-orchestration | [→](https://ram.zenbin.org/wire) | [mock](https://ram.zenbin.org/wire-mock) |
-| CANON | reading-intelligence | [→](https://ram.zenbin.org/canon) | [mock](https://ram.zenbin.org/canon-mock) |
-| GILD | wealth-intelligence | [→](https://ram.zenbin.org/gild) | [mock](https://ram.zenbin.org/gild-mock) |
-| HERALD | team-intelligence | [→](https://ram.zenbin.org/herald) | [mock](https://ram.zenbin.org/herald-mock) |
-| DATUM | observability-platform | [→](https://ram.zenbin.org/datum) | [mock](https://ram.zenbin.org/datum-mock) |
-| Glade | nature-journal-tracker | [→](https://ram.zenbin.org/glade) | [mock](https://ram.zenbin.org/glade-mock) |
-| CRUX | agentic-ops | [→](https://ram.zenbin.org/crux) | [mock](https://ram.zenbin.org/crux-mock) |
-| Pact | wellness-finance | [→](https://ram.zenbin.org/pact) | [mock](https://ram.zenbin.org/pact-mock) |
-| SERUM | ai-skin-intelligence-light | [→](https://ram.zenbin.org/serum) | [mock](https://ram.zenbin.org/serum-mock) |
-| GATE | dev-tools | [→](https://ram.zenbin.org/gate) | [mock](https://ram.zenbin.org/gate-mock) |
-| KIN | personal-crm | [→](https://ram.zenbin.org/kin) | [mock](https://ram.zenbin.org/kin-mock) |
-| ONYX | spirits-discovery | [→](https://ram.zenbin.org/onyx) | [mock](https://ram.zenbin.org/onyx-mock) |
-| EDITION | newsletter-reader | [→](https://ram.zenbin.org/edition) | [mock](https://ram.zenbin.org/edition-mock) |
-| VOLT | athlete-biometrics | [→](https://ram.zenbin.org/volt-energy) | [mock](https://ram.zenbin.org/volt-energy-mock) |
-| Fathom | finance-clarity | [→](https://ram.zenbin.org/fathom) | [mock](https://ram.zenbin.org/fathom-mock) |
-| Vela | writing-intelligence | [→](https://ram.zenbin.org/vela) | [mock](https://ram.zenbin.org/vela-mock) |
-| Forge | devtools-monitor | [→](https://ram.zenbin.org/forge) | [mock](https://ram.zenbin.org/forge-mock) |
-| KNOT | personal-knowledge-graph-dark | [→](https://ram.zenbin.org/knot) | [mock](https://ram.zenbin.org/knot-mock) |
-| SCOUT | analytics-saas | [→](https://ram.zenbin.org/scout) | [mock](https://ram.zenbin.org/scout-mock) |
-| MURMUR | audio-intelligence | [→](https://ram.zenbin.org/murmur) | [mock](https://ram.zenbin.org/murmur-mock) |
-| HAVEN | urban-concierge | [→](https://ram.zenbin.org/haven) | [mock](https://ram.zenbin.org/haven-mock) |
-| FACET | material-discovery | [→](https://ram.zenbin.org/facet) | [mock](https://ram.zenbin.org/facet-mock) |
-| QUORUM | social-concierge | [→](https://ram.zenbin.org/quorum) | [mock](https://ram.zenbin.org/quorum-mock) |
-| Solvent | finance-health-tracker | [→](https://ram.zenbin.org/solvent-finance) | [mock](https://ram.zenbin.org/solvent-finance-mock) |
-| RAFT | sprint-intelligence | [→](https://ram.zenbin.org/raft) | [mock](https://ram.zenbin.org/raft-mock) |
-| DISPATCH | ai-agent-orchestration-dark | [→](https://ram.zenbin.org/dispatch) | [mock](https://ram.zenbin.org/dispatch-mock) |
-| WAVE | podcast-dark-retro-terminal-violet-phosphor | [→](https://ram.zenbin.org/wave) | [mock](https://ram.zenbin.org/wave-mock) |
-| TROVE | fintech-light-agent-first-freelance-finance | [→](https://ram.zenbin.org/trove) | [mock](https://ram.zenbin.org/trove-mock) |
-| LUNE | wellness-dark-editorial-dream-arc-layout | [→](https://ram.zenbin.org/lune) | [mock](https://ram.zenbin.org/lune-mock) |
-| NOIR | studio-dashboard-finance-dark-editorial | [→](https://ram.zenbin.org/noir) | [mock](https://ram.zenbin.org/noir-mock) |
-| LUCID | finance-ai-dark | [→](https://ram.zenbin.org/lucid) | [mock](https://ram.zenbin.org/lucid-mock) |
-| ISSUE | editorial-magazine-reader | [→](https://ram.zenbin.org/issue) | [mock](https://ram.zenbin.org/issue-mock) |
-| MUSE | creative-ai | [→](https://ram.zenbin.org/muse) | [mock](https://ram.zenbin.org/muse-mock) |
+## Recreating Any Design
 
-*...and 275 more in [catalog.json](./catalog.json)*
+Every heartbeat is fully reproducible:
 
-## Top Archetypes
-
-| Archetype | Count |
-|-----------|-------|
-| productivity | 26 |
-| developer-tools | 13 |
-| finance | 10 |
-| studio | 6 |
-| health | 6 |
-| reading-intelligence | 4 |
-| social | 4 |
-| focus-productivity | 3 |
-| fintech-dark | 2 |
-| personal-productivity | 2 |
-| analytics-saas | 2 |
-| audio-intelligence | 2 |
-| personal-finance | 2 |
-| developer-tool | 2 |
-| creative-studio-tracker | 2 |
-
-## Repository Structure
-
+```bash
+git clone https://github.com/hyperio-mc/ram-designs
+cd ram-designs/heartbeats/lodge
+node generator.js   # rebuilds lodge.pen from scratch
 ```
-ram-designs/
-  catalog.json          # All 325 designs with metadata
-  README.md             # This file
-  heartbeats/
-    beacon/generator.js  # Heartbeat #1 source
-    issue/generator.js   # Heartbeat #2 source
-    dispatch/generator.js
-    knot/generator.js
-    serum/generator.js
-    patch/generator.js
-    mint/generator.js    # Heartbeat #7 source
-    nova/generator.js    # Heartbeat #8 source
-```
+
+The generator script contains every intentional decision: color values, element sizes, screen order, copy, layout logic. The `.pen` file is the compiled output (SVG + element arrays). Both are committed so the design survives any environment reset.
+
+## Full Catalog
+
+[`catalog.json`](catalog.json) — 325 unique designs with metadata:
+- `app_name`, `tagline`, `archetype`
+- `design_url`, `mock_url`
+- `prompt` (original design brief)
+- `screens`, `source`, `published_at`
+
+## Design Recommender
+
+Search and filter all 325 designs: **https://ram.zenbin.org/discover**
 
 ---
-*Last updated: 2026-04-07 · RAM Design System v2.0*
+
+## Archive Convention (going forward)
+
+Every heartbeat auto-pushes three files on completion:
+1. `heartbeats/{name}/generator.js` — source
+2. `heartbeats/{name}/design.pen` — compiled data
+3. `heartbeats/{name}/notes.md` — research + decisions
+
+*Last updated: 2026-04-07 · RAM Design System v2.1*
